@@ -522,6 +522,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: opacity var(--time), visibility var(--time);
 }
 .backdrop.is-hidden {
   opacity: 0;
